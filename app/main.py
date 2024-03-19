@@ -5,18 +5,18 @@ app = FastAPI(openapi_url="/api/v1/characters/openapi.json", docs_url="/api/v1/c
 characters_router = APIRouter()
 
 characters = [
-    {'books_id': 1, 'name': 'Mbappe',
-     'language': 'France',
-     'age': '50', 'number_of_mentions': '34'},
-    {'books_id': 2, 'name': 'Ronaldo',
-     'language': 'Portugal',
-     'age': '5', 'number_of_mentions': '26'},
-    {'books_id': 3, 'name': 'Akinfeev',
-     'language': 'Russia',
-     'age': '90', 'number_of_mentions': '47'},
-    {'books_id': 3, 'name': 'Dzagoev',
-     'language': 'Russia',
-     'age': '105', 'number_of_mentions': '36'}
+    {'books_id': 1, 'name': 'Jesus',
+     'language': 'Russian',
+     'age': '21', 'number_of_mentions': '650'},
+    {'books_id': 2, 'name': 'Dumbledore',
+     'language': 'English',
+     'age': '80', 'number_of_mentions': '450'},
+    {'books_id': 3, 'name': 'Batman',
+     'language': 'English',
+     'age': '30', 'number_of_mentions': '900'},
+    {'books_id': 3, 'name': 'Superman',
+     'language': 'English',
+     'age': '29', 'number_of_mentions': '890'}
 ]
 
 
