@@ -19,3 +19,4 @@ characters = Table(
 )
 
 database = Database(DATABASE_URI)
+
